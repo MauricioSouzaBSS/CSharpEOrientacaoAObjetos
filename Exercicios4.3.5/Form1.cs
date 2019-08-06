@@ -8,14 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Exercicios4._3._5
+namespace Exercicios4._3._5      
 {
     public partial class Form1 : Form
     {
         double valorDaNotaFiscal = 0;
         public Form1()
         {
-            valorDaNotaFiscal = 3500.000;
+            valorDaNotaFiscal = 4200.000;
             InitializeComponent();
             AtualizarValorDaNotaFiscal();
         }
