@@ -1,4 +1,4 @@
-﻿namespace TesteDeFor
+﻿namespace SaqueEConferidorDeSaldo
 {
     partial class Form1
     {
@@ -32,14 +32,14 @@
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(800, 600);
+            this.ClientSize = new System.Drawing.Size(284, 261);
             this.Name = "Form1";
             this.ResumeLayout(false);
 
         }
 
-
         #endregion
+
     }
 }
 
