@@ -15,15 +15,15 @@ namespace SaqueEConferidorDeSaldo
         public Form1()
         {
             double Saldo = 1200.0;
-            double varValorSaque = 110.0;
+            double varValorSaque = 1300.0;
             MessageBox.Show("Seu Saldo Atual é de : " + Saldo);
-            MessageBox.Show("Deseja fazer um saque? ");
+            MessageBox.Show("Sacar ? : " + varValorSaque);
             if (Saldo >= varValorSaque)
             {
                 MessageBox.Show("Pode Sacar !");
                 Saldo = Saldo - varValorSaque;
-                MessageBox.Show("Saque Realizado com Sucesso ! ");
-                MessageBox.Show("seu saldo restante ficou em: " + Saldo);
+                MessageBox.Show("Saque Realizado com Sucesso ! " + "seu saldo restante ficou em: " + Saldo);
+               
             }
             else
             {
