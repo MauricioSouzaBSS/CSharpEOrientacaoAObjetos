@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicios5.4.2", "Exercici
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicios5.4.3", "Exercicios5.4.3\Exercicios5.4.3.csproj", "{39306421-2A70-4ADE-89A3-26E61477E4DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteDeFor", "TesteDeFor\TesteDeFor.csproj", "{7AB8F831-25A1-4A4F-8EDA-39A1AB5E6BBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conta", "Conta\Conta.csproj", "{77FC6928-3899-4213-8EF0-40023B8A9826}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{39306421-2A70-4ADE-89A3-26E61477E4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39306421-2A70-4ADE-89A3-26E61477E4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39306421-2A70-4ADE-89A3-26E61477E4DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AB8F831-25A1-4A4F-8EDA-39A1AB5E6BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB8F831-25A1-4A4F-8EDA-39A1AB5E6BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB8F831-25A1-4A4F-8EDA-39A1AB5E6BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB8F831-25A1-4A4F-8EDA-39A1AB5E6BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77FC6928-3899-4213-8EF0-40023B8A9826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77FC6928-3899-4213-8EF0-40023B8A9826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77FC6928-3899-4213-8EF0-40023B8A9826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77FC6928-3899-4213-8EF0-40023B8A9826}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,25 +8,37 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Capitulo5      // Introdução ao for !
+namespace Conta
 {
+    class conta
+    {
+        public int numero;
+        public string titular;
+        public double saldo;
+    }
+
     public partial class Form1 : Form
     {
-        double valorInvestido = 100.0;
+        
         public Form1()
         {
-            for (int i = 1; i<= 12; i += 1)
-            {
-                valorInvestido = valorInvestido * 1.1;
-            }
-            MessageBox.Show("Valor investido agora é: " + valorInvestido);
-
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            conta c = new conta();
+            c.numero = 1;
+            c.titular = "Victor";
+            c.saldo = 100;
+            c.saldo -= 50.0;
             
+            if(c.saldo >= 100.0)
+            {
+                c.saldo -= 100.0;
+            }
+            MessageBox.Show(this.saldo);
         }
     }
+    
 }

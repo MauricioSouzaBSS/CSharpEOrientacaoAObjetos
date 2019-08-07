@@ -42,9 +42,6 @@ namespace Exercicios5._4._3
             return resultado;
         }
 
-
-
-
         private void Form1_Load(object sender, EventArgs e)
         {
             MessageBox.Show(MultiplosDeTres());
