@@ -17,7 +17,7 @@ namespace Exercicios5._4._1
         {
             for (int i = 0; i < 5; i += 1)
             {
-                total = total * 2;
+                total = total * 3;
             }
             InitializeComponent();
         }

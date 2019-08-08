@@ -15,7 +15,7 @@ namespace Exercicios5._4._3
        
         public Form1()
         {
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 30; i++)
             {
                 if (i % 3 == 0)
                 {
@@ -23,14 +23,14 @@ namespace Exercicios5._4._3
                 }
             }
             
-            InitializeComponent();
+           InitializeComponent();
         }
 
         private string MultiplosDeTres()
         {
             string resultado = String.Empty;
 
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 30; i++)
             {
                 if (i % 3 == 0)
                 {
