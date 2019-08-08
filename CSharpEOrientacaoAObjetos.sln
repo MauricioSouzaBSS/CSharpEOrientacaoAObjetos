@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicios5.4.3", "Exercici
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaqueEConferidorDeSaldo", "SaqueEConferidorDeSaldo\SaqueEConferidorDeSaldo.csproj", "{FDE2A232-EC07-4D22-8118-4A19D117175D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicios6.7.2", "Exercicios6.7.2\Exercicios6.7.2.csproj", "{86932FEF-E83C-4FBF-9285-1FE6C942E448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicios5.4.7Fibonacci", "Exercicios5.4.7Fibonacci\Exercicios5.4.7Fibonacci.csproj", "{8227E231-BE0B-46E5-A6C2-8642A0DE1700}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{FDE2A232-EC07-4D22-8118-4A19D117175D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDE2A232-EC07-4D22-8118-4A19D117175D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDE2A232-EC07-4D22-8118-4A19D117175D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86932FEF-E83C-4FBF-9285-1FE6C942E448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86932FEF-E83C-4FBF-9285-1FE6C942E448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86932FEF-E83C-4FBF-9285-1FE6C942E448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86932FEF-E83C-4FBF-9285-1FE6C942E448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8227E231-BE0B-46E5-A6C2-8642A0DE1700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8227E231-BE0B-46E5-A6C2-8642A0DE1700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8227E231-BE0B-46E5-A6C2-8642A0DE1700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8227E231-BE0B-46E5-A6C2-8642A0DE1700}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
