@@ -46,7 +46,7 @@
             this.ClientSize = new System.Drawing.Size(999, 503);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load_1);
+           
             this.ResumeLayout(false);
 
         }

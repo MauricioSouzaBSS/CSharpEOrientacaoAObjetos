@@ -6,18 +6,44 @@ using System.Threading.Tasks;
 
 namespace SaqueEConferidorDeSaldo
 {
-    class Conta
+    public class Conta
     {
         public int numero;
         public String titular;
         public double saldo;
+        
 
-
-
-
-        public void Saca()
+        /* ESTE É O CONSTRUTOR DA CLASSE 'CONTA'
+        ELE SERVE PARA INICIALIZAR A CLASSE (a inicialização de uma classe
+        acontece quando eu fizer o seguinte código: new NomeClasse())
+        */
+        public Conta()      // CONSTRUTOR
         {
-           
+            saldo = 10045;
+            titular = "ZÉ";
+        }
+
+
+        public bool Saca(double valor)
+            
+        {
+           if (this.saldo >= valor)
+           {
+                this.saldo -= valor;
+                return true;
+           }
+            return false;
+        }
+
+        public void Deposita(double valor)
+        {
+            this.saldo += valor;
+        }
+
+        public void Transfere(double valor, Conta destino)
+        {
+            destino.Deposita(valor);
         }
     }
+
 }
