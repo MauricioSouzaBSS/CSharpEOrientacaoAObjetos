@@ -46,5 +46,10 @@ namespace SaqueEConferidorDeSaldo
             c.titular = "Victor";
             c.saldo = 100;
         }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
