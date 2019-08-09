@@ -26,7 +26,7 @@ namespace Exercicios6._7._2
                 contaMauricio = new Conta();
                 contaMauricio.numero = 1;
                 contaMauricio.titular = "Maurício";
-                contaMauricio.saldo = 300;
+                contaMauricio.saldo = 3020;
 
 
                 contaArthur = new Conta();
