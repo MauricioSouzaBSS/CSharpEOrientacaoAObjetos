@@ -12,7 +12,7 @@ namespace Capitulo5      // Introdução ao for !
 {
     public partial class Form1 : Form
     {
-        double valorInvestido = 100.0;
+        double valorInvestido = 110.0;
         public Form1()
         {
             for (int i = 1; i<= 12; i += 1)
