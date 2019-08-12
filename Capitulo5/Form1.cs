@@ -12,12 +12,12 @@ namespace Capitulo5      // Introdução ao for !
 {
     public partial class Form1 : Form
     {
-        double valorInvestido = 110.0;
+        double valorInvestido = 12.0;
         public Form1()
         {
             for (int i = 1; i<= 12; i += 1)
             {
-                valorInvestido = valorInvestido * 1.1;
+                valorInvestido = valorInvestido * 1.5;
             }
             MessageBox.Show("Valor investido agora é: " + valorInvestido);
 

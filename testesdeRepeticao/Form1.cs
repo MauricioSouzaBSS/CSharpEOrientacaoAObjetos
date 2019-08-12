@@ -8,23 +8,35 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Exercicios5._4._1
+namespace testesdeRepeticao
 {
     public partial class Form1 : Form
     {
-        double total = 100;
+        double saldo = 10.0;
+        
         public Form1()
+            
         {
-            for (int i = 0; i < 12; i += 1)
+            
+            double valorInvestido = 10.0;
+            saldo = 0;
+            do
             {
-                total = total * 3;
+                valorInvestido = valorInvestido * 2;
             }
+            while (this.saldo < 21);
+          
+;
+
+            MessageBox.Show("" + valorInvestido);
+            
+            
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("O Total é: " + total);
+
         }
     }
 }

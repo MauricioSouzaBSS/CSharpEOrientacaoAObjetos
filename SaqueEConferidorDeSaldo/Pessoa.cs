@@ -18,7 +18,8 @@
 
         public string GetInformacoesPessoa()
         {
-            return "Nome: " + nome + "\n" + "Sobre Nome: " + sobreNome + "\n" + "Idade: " + idade +
+            return "Nome: " + nome + "\n" + "Sobre Nome: " 
+                + sobreNome + "\n" + "Idade: " + idade +
            "\n" + "Altura: "  
            + altura + "\n" + "Pé: " + pe;
         }

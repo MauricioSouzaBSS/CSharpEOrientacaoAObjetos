@@ -17,7 +17,7 @@ namespace Exercicios4._3._5
         {
             valorDaNotaFiscal = 4200.000;
             InitializeComponent();
-            AtualizarValorDaNotaFiscal();
+           AtualizarValorDaNotaFiscal();
         }
 
         public void AtualizarValorDaNotaFiscal()
@@ -39,7 +39,7 @@ namespace Exercicios4._3._5
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Total " + Convert.ToString(valorDaNotaFiscal));
+            MessageBox.Show("Total " + (valorDaNotaFiscal));
         }
     }
 }
