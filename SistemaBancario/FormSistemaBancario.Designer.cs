@@ -35,6 +35,7 @@
             // 
             // sairSistema
             // 
+            this.sairSistema.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.sairSistema.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sairSistema.Location = new System.Drawing.Point(526, 399);
             this.sairSistema.Name = "sairSistema";

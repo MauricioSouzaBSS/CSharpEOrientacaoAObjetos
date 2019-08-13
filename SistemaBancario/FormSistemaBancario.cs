@@ -25,12 +25,15 @@ namespace SistemaBancario
 
         private void CriarConta_Click(object sender, EventArgs e)
         {
-              Conta n1 = new Conta();
+            FormCriarContas formCriarContas = new FormCriarContas();
+            formCriarContas.ShowDialog();
+
         }
 
         private void VerContas_Click(object sender, EventArgs e)
         {
-          //  MessageBox.Show();
+            FormVisaoDasContas visaoDasContas = new FormVisaoDasContas();
+            visaoDasContas.ShowDialog();
         }
 
         private void SairSistema_Click(object sender, EventArgs e)

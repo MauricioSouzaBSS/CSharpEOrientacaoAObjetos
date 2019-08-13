@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace SistemaBancario
 {
-    
+
     public class Conta
     {
+
         public string nome;
         public int numero;
         public int endereço;
@@ -16,12 +17,14 @@ namespace SistemaBancario
         public double cpf;
         public double saldo = 0.10;
 
-        public Conta ()
+        public Conta()
         {
-           
+
             saldo = 0.10;
-           
+
         }
+
+    
 
         public bool Saca(double valor)
         {

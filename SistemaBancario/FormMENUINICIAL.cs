@@ -24,7 +24,7 @@ namespace SistemaBancario
         {
             FormSistemaBancario formSistemaBancario = new FormSistemaBancario();
             formSistemaBancario.ShowDialog();
-            
+            this.Close();
         }
 
         private void FormMenu_Load(object sender, EventArgs e)
