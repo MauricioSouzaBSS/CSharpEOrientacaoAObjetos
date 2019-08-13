@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace SaqueEConferidorDeSaldo
 {
-    public partial class Form1 : Form
+    public partial class Menu : Form
     {
-        public Form1()
+        public Menu()
         {
             Pessoa p1 = new Pessoa();
             p1.nome = "Mauricio";

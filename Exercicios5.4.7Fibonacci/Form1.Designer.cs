@@ -57,19 +57,19 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Número de Sequências.";
             // 
-            // textBox1
+            // textBoxInputUsuario
             // 
             this.textBoxInputUsuario.Location = new System.Drawing.Point(210, 63);
-            this.textBoxInputUsuario.Name = "textBox1";
+            this.textBoxInputUsuario.Name = "textBoxInputUsuario";
             this.textBoxInputUsuario.Size = new System.Drawing.Size(142, 20);
             this.textBoxInputUsuario.TabIndex = 2;
             this.textBoxInputUsuario.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
-            // listBox1
+            // listBoxItemsFibonacci
             // 
             this.listBoxItemsFibonacci.FormattingEnabled = true;
             this.listBoxItemsFibonacci.Location = new System.Drawing.Point(82, 102);
-            this.listBoxItemsFibonacci.Name = "listBox1";
+            this.listBoxItemsFibonacci.Name = "listBoxItemsFibonacci";
             this.listBoxItemsFibonacci.Size = new System.Drawing.Size(270, 355);
             this.listBoxItemsFibonacci.TabIndex = 3;
             // 
@@ -83,10 +83,10 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Contador";
             // 
-            // textBox2
+            // textBoxSaida
             // 
             this.textBoxSaida.Location = new System.Drawing.Point(210, 472);
-            this.textBoxSaida.Name = "textBox2";
+            this.textBoxSaida.Name = "textBoxSaida";
             this.textBoxSaida.Size = new System.Drawing.Size(142, 20);
             this.textBoxSaida.TabIndex = 5;
             // 

@@ -47,17 +47,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conta.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="FormMENUINICIAL.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormMENUINICIAL.Designer.cs">
+      <DependentUpon>FormMENUINICIAL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSistemaBancario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSistemaBancario.Designer.cs">
+      <DependentUpon>FormSistemaBancario.cs</DependentUpon>
     </Compile>
     <Compile Include="Pessoa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FormMENUINICIAL.resx">
+      <DependentUpon>FormMENUINICIAL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSistemaBancario.resx">
+      <DependentUpon>FormSistemaBancario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -68,6 +77,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Properties\DataSources\Conta.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -80,6 +90,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SaqueEConferidorDeSaldo\SaqueEConferidorDeSaldo.csproj">
+      <Project>{FDE2A232-EC07-4D22-8118-4A19D117175D}</Project>
+      <Name>SaqueEConferidorDeSaldo</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -9,18 +9,18 @@ namespace SistemaBancario
     
     public class Conta
     {
-      
-         
+        public string nome;
         public int numero;
-        public string titular;
+        public int endereço;
+        public int rg;
+        public double cpf;
         public double saldo = 0.10;
-
-        
 
         public Conta ()
         {
-            saldo = 120.10;
-            titular = "";
+           
+            saldo = 0.10;
+           
         }
 
         public bool Saca(double valor)
@@ -42,6 +42,11 @@ namespace SistemaBancario
         {
             destino.Deposita(valor);
         }
+
+        //public string GetInformacoesPessoa()
+        //{
+        //    return  " +  + "\n" + "Sobre Nome: " +  + "\n" + "Idade: " +  + "\n" + "Altura: " +  + "\n" + "Pé: " + ;
+        //}
     }
 
     
