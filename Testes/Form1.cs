@@ -12,46 +12,150 @@ namespace Testes
 {
     public partial class Form1 : Form
     {
-        int indice = 0;
-     
+
+        double Media;
+        double Litros;
+        double GastoEmLitros;
+        double LitroVale;
+        double KmsAFazer;
+        double GastoSemana;
+        double GastoMes;
 
         public Form1()
         {
-
-            int quantidadePares = 0;
-            int quantidadeImpares = 0;
-            int somaPares = 0;
-            int somaImpares = 0;
-
-            for (indice = 1; indice < 20; indice += 1)
-            {
-                if (indice % 2 == 0)
-                {
-                    somaPares = somaPares + indice;
-                    quantidadePares++;
-                    MessageBox.Show("Pares: " + quantidadePares + "\n" + "Soma Pares: " + somaPares + "\n" +"Indice: " + indice);
-                }
-                else
-                {
-                    somaImpares = somaImpares + indice;
-                    quantidadeImpares++;
-                    MessageBox.Show("Impares: " + quantidadeImpares + "\n" + "Soma Impares: " + somaImpares + "\n" + "Indice: " + indice);
-                }
-               
-            }
-            MessageBox.Show("Resultados: " + "\n" +
-                    "Quantidade Pares: " + quantidadePares + "\n" +
-                    "Quantidade Impares: " + quantidadeImpares + "\n" +
-                    "Soma de Todos Pares: " + somaPares + "\n" +
-                    "Soma de Todos Impares: " + somaImpares + "\n" +
-                    "Indice Total loop: " + indice);
-
-            InitializeComponent();
+            InitializeComponent();   
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        public void Form1_Load(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void Label1ConsumoDeCombustivel_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void LabelGastoNoMes_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LabelGastosnaSemana_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LabelLitrosAbastecidos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label3GastoEmLitros_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LabelValorAbastecido_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LabelLitrosAbastecidos2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label2KilometrosaFazer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label1PrecoDoLitro_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label1InsiraAMedia_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public void TextBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void TextBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void TextBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void TextBox8_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        public void TextBox9_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void TextBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void TextBox3_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        public void TextBox2_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        public void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        public void LabelResultados_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public void ButtonCalcular_Click(object sender, EventArgs e)
+        {
+
+
+            Media = Convert.ToDouble(TextBox1.Text);
+            LitroVale = Convert.ToDouble(textBox2.Text);
+            GastoEmLitros = Convert.ToDouble(textBox8.Text);
+
+            Litros = GastoEmLitros / LitroVale;
+            KmsAFazer = Litros * Media;
+            GastoSemana = GastoEmLitros / LitroVale * 5;
+            GastoMes = GastoSemana * 4;
+            
+            textBox3.Text = KmsAFazer.ToString("F");
+            textBox5.Text = Litros.ToString("F");
+        }
+
+        private void ButtonLimparCaixas_Click(object sender, EventArgs e)
+        {
+            TextBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox5.Clear();
+            textBox8.Clear();
+         
         }
     }
 }
