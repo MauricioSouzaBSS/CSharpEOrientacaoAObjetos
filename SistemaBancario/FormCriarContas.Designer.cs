@@ -56,7 +56,7 @@
             this.caixadeNumero.Location = new System.Drawing.Point(241, 162);
             this.caixadeNumero.Name = "caixadeNumero";
             this.caixadeNumero.Size = new System.Drawing.Size(353, 20);
-            this.caixadeNumero.TabIndex = 0;
+            this.caixadeNumero.TabIndex = 1;
             this.caixadeNumero.TextChanged += new System.EventHandler(this.CaixadeNumero_TextChanged);
             // 
             // caixadeEndereco
@@ -64,7 +64,7 @@
             this.caixadeEndereco.Location = new System.Drawing.Point(241, 188);
             this.caixadeEndereco.Name = "caixadeEndereco";
             this.caixadeEndereco.Size = new System.Drawing.Size(353, 20);
-            this.caixadeEndereco.TabIndex = 0;
+            this.caixadeEndereco.TabIndex = 2;
             this.caixadeEndereco.TextChanged += new System.EventHandler(this.CaixadeEndereco_TextChanged);
             // 
             // caixadeRg
@@ -72,7 +72,7 @@
             this.caixadeRg.Location = new System.Drawing.Point(241, 214);
             this.caixadeRg.Name = "caixadeRg";
             this.caixadeRg.Size = new System.Drawing.Size(353, 20);
-            this.caixadeRg.TabIndex = 0;
+            this.caixadeRg.TabIndex = 3;
             this.caixadeRg.TextChanged += new System.EventHandler(this.CaixadeRg_TextChanged);
             // 
             // caixadeCpf
@@ -80,7 +80,7 @@
             this.caixadeCpf.Location = new System.Drawing.Point(241, 240);
             this.caixadeCpf.Name = "caixadeCpf";
             this.caixadeCpf.Size = new System.Drawing.Size(353, 20);
-            this.caixadeCpf.TabIndex = 0;
+            this.caixadeCpf.TabIndex = 4;
             this.caixadeCpf.TextChanged += new System.EventHandler(this.CaixadeCpf_TextChanged);
             // 
             // caixadeSaldo
@@ -88,7 +88,7 @@
             this.caixadeSaldo.Location = new System.Drawing.Point(241, 266);
             this.caixadeSaldo.Name = "caixadeSaldo";
             this.caixadeSaldo.Size = new System.Drawing.Size(353, 20);
-            this.caixadeSaldo.TabIndex = 0;
+            this.caixadeSaldo.TabIndex = 5;
             this.caixadeSaldo.TextChanged += new System.EventHandler(this.CaixadeSaldo_TextChanged);
             // 
             // nome
@@ -169,7 +169,7 @@
             this.criarESalvar.Location = new System.Drawing.Point(311, 346);
             this.criarESalvar.Name = "criarESalvar";
             this.criarESalvar.Size = new System.Drawing.Size(161, 45);
-            this.criarESalvar.TabIndex = 2;
+            this.criarESalvar.TabIndex = 6;
             this.criarESalvar.Text = "Criar e Salvar";
             this.criarESalvar.UseVisualStyleBackColor = true;
             this.criarESalvar.Click += new System.EventHandler(this.CriarESalvar_Click);

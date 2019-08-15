@@ -21,5 +21,40 @@ namespace SistemaBancario
         {
 
         }
+
+        public void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Button5EntrarNaConta_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button3EditarConta_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button4Voltar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Button1ExcluirConta_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void VerContas_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
