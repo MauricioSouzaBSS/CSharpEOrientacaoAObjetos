@@ -57,21 +57,35 @@ namespace SistemaBancario
         }
         private void CriarESalvar_Click(object sender, EventArgs e)
         {
+
+           
+
             string nomeCliente = caixadeNome.Text;
             string rgCliente = caixadeRg.Text;
             string cpfCliente = caixadeCpf.Text;
             string numeroCliente = caixadeNumero.Text;         
             string enderecoCliente = caixadeEndereco.Text;
             string saldo = caixadeSaldo.Text;
+
             caixadeNome.Clear();
             caixadeRg.Clear();
             caixadeCpf.Clear();
             caixadeNumero.Clear();
             caixadeEndereco.Clear();
             caixadeSaldo.Clear();
-            Cliente cliente = new Cliente();
+
+            Cliente cliente = new Cliente();  // OBJETO
+
+            cliente.CPF = cpfCliente;
+            cliente.RG = rgCliente;
+            cliente.Numero = numeroCliente;
+            cliente.Endereco = enderecoCliente;
             cliente.Nome = nomeCliente;
-            cliente.AdicionarConta(0.10);
+
+            BancoDeDados.SalvarCliente(cliente);   //SALVAR
+
+            cliente.AdicionarConta(0.10);  
+
             string saldoCliente = caixadeSaldo.Text;
             MessageBox.Show("Cliente: " + nomeCliente +"\n\n"+ 
                 "Salvado com Sucesso ! " + "\n\n" +

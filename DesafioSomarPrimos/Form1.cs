@@ -10,39 +10,33 @@ using System.Windows.Forms;
 
 namespace DesafioSomarPrimos
 {
-    public partial class Form1 : Form
+    class Calcula
     {
-        int Primo1 = 2;
-        int Primo2 = 3;
-        int Primo3 = 7;
-        long SomaPrimos;
-        public Form1()
+        public string calculaNumeroPrimo(int n)
         {
-            for(int indice = 2; indice < 30; indice ++)
+            string resultado = n.ToString();
             {
-                if (indice % Primo1 == 0)
+                for (int i = 2; i < n; i++)
                 {
-                   
+                    int resto = n % i;
+                    if (resto == 0)
+                    {
+                        resultado = n + " não é um número primo";
+                        i = n + 1;
+                    }
+                    else
+                    {
+                        resultado = n + " é um número primo";
+                    }
                 }
-                if (indice % Primo2 == 0)
-                {
-                    
-                }
-                if (indice % Primo3 == 0)
-                {
-                    indice++;
-                    SomaPrimos = +SomaPrimos;
-                }
-                else
-                {
-                    indice++;
-                }
-
-
             }
-            MessageBox.Show("R: " + SomaPrimos);
 
-            InitializeComponent();
+            {
+                MessageBox.Show("Erro ao Verificar nº primo");
+            }
+            MessageBox.Show(resultado);
+            
+            return resultado;
         }
     }
 }

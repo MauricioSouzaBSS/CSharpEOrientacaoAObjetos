@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BancoDeDados.cs" />
     <Compile Include="Classes\Cliente.cs" />
     <Compile Include="Classes\Conta.cs" />
     <Compile Include="FormCriarContas.cs">
