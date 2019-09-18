@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteArrays", "TesteArrays\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioPag158", "ExercicioPag158\ExercicioPag158.csproj", "{DB0FB1EF-7253-404C-ADE9-7B2D3E4A20A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrcamentoDeFestas", "OrcamentoDeFestas\OrcamentoDeFestas.csproj", "{1328E9CA-5DE5-4B70-9F3D-26DDEA04C116}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -235,6 +237,10 @@ Global
 		{DB0FB1EF-7253-404C-ADE9-7B2D3E4A20A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB0FB1EF-7253-404C-ADE9-7B2D3E4A20A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB0FB1EF-7253-404C-ADE9-7B2D3E4A20A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1328E9CA-5DE5-4B70-9F3D-26DDEA04C116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1328E9CA-5DE5-4B70-9F3D-26DDEA04C116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1328E9CA-5DE5-4B70-9F3D-26DDEA04C116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1328E9CA-5DE5-4B70-9F3D-26DDEA04C116}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -277,6 +283,7 @@ Global
 		{234F69B9-2925-49A1-9B69-FE10F086929E} = {CF4945D8-EE2B-4004-8F69-BB39383ED427}
 		{F53BB457-A92F-4660-9A8B-464BCC06143D} = {CF4945D8-EE2B-4004-8F69-BB39383ED427}
 		{DB0FB1EF-7253-404C-ADE9-7B2D3E4A20A3} = {CF4945D8-EE2B-4004-8F69-BB39383ED427}
+		{1328E9CA-5DE5-4B70-9F3D-26DDEA04C116} = {DA14D701-69DD-417A-A2BD-D4E6B7E933C1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {25DF101F-DCB6-47F2-8B36-B0BFA251B214}
