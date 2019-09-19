@@ -21,11 +21,11 @@ namespace MATRIX
                     {
                         if (rand.Next(10) > 5)
                         {
-                            Console.ForegroundColor = ConsoleColor.Green;
+                            Console.ForegroundColor = ConsoleColor.Red;
                         }
                         else
                         {
-                            Console.ForegroundColor = ConsoleColor.DarkGreen;
+                            Console.ForegroundColor = ConsoleColor.Blue;
                         }
 
                         int n = rand.Next(2);
@@ -33,9 +33,9 @@ namespace MATRIX
                     }
                     if (j != 7)
                     {
-                        Console.Write("    ");
+                        Console.Write(" ");
                     }
-                }
+                } 
             }
             Console.ResetColor();
             Console.ReadKey();

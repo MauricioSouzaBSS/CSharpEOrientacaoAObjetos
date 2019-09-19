@@ -19,7 +19,7 @@ namespace Testes
         double LitroVale;
         double KmsAFazer;
         double GastoSemana;
-        double GastoMes;
+  
 
         public Form1()
         {
@@ -142,10 +142,11 @@ namespace Testes
             Litros = GastoEmLitros / LitroVale;
             KmsAFazer = Litros * Media;
             GastoSemana = GastoEmLitros / LitroVale * 5;
-            GastoMes = GastoSemana * 4;
+          
             
             textBox3.Text = KmsAFazer.ToString("F");
             textBox5.Text = Litros.ToString("F");
+
         }
 
         private void ButtonLimparCaixas_Click(object sender, EventArgs e)

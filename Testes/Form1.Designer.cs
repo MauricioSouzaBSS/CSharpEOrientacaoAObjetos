@@ -203,7 +203,10 @@
             this.Controls.Add(this.TextBox1);
             this.Controls.Add(this.label1ConsumoDeCombustivel);
             this.Controls.Add(this.buttonCalcular);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calcular Consumo De Combustível.";
             this.Load += new System.EventHandler(this.Form1_Load);
