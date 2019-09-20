@@ -19,7 +19,7 @@ namespace TestesETC
 
             if (orderAmount >= loyalCustomerOrderAmount)
             {
-                return cookieRecipe + " " + secretIngredient;
+                return cookieRecipe + "   " + secretIngredient;
             }
             else
             {
