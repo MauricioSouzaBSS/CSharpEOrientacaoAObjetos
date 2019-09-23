@@ -100,11 +100,7 @@ namespace Testes
             textBox3.Clear();
             textBox5.Clear();
             textBox8.Clear();
-        }
-
-        private void ButtonLimparCaixas_Click(object sender, EventArgs e)
-        {
-            LimparTextBox();
+         
         }
 
     }
