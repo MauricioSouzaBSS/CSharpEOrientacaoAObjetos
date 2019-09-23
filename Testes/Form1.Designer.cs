@@ -65,7 +65,6 @@
             this.label1ConsumoDeCombustivel.TabIndex = 2;
             this.label1ConsumoDeCombustivel.Text = "Calcular Consumo de \r\nCombustível";
             this.label1ConsumoDeCombustivel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label1ConsumoDeCombustivel.Click += new System.EventHandler(this.Label1ConsumoDeCombustivel_Click);
             // 
             // TextBox1
             // 
@@ -171,7 +170,6 @@
             this.labelResultados.Size = new System.Drawing.Size(137, 25);
             this.labelResultados.TabIndex = 5;
             this.labelResultados.Text = "Resultados:";
-            this.labelResultados.Click += new System.EventHandler(this.LabelResultados_Click);
             // 
             // buttonLimparCaixas
             // 

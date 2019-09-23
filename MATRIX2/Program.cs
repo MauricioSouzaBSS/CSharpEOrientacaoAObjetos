@@ -30,7 +30,7 @@ namespace m7tr1x
             {
                 DateTime t1 = DateTime.Now;
                 MatrixStep(width, height, y, l);
-                ms = 10 - (int)((TimeSpan)(DateTime.Now - t1)).TotalMilliseconds;
+                ms = 99 - (int)((TimeSpan)(DateTime.Now - t1)).TotalMilliseconds;
 
                 if (ms > 0)
                     System.Threading.Thread.Sleep(ms);
