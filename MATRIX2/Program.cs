@@ -32,7 +32,7 @@ namespace m7tr1x
                 MatrixStep(width, height, y, l);
                 ms = 99 - (int)((TimeSpan)(DateTime.Now - t1)).TotalMilliseconds;
 
-                if (ms > 0)
+                if (ms > 9)
                     System.Threading.Thread.Sleep(ms);
 
                 if (Console.KeyAvailable)

@@ -12,7 +12,6 @@ namespace CalcularFarmer
         public const int FeedMultiplier = 30;
 
         private int numberOfCows;
-       //ublic int BagsOfFeed { get; private set; }
         public int NumberOfCows
         {
             get
@@ -27,4 +26,3 @@ namespace CalcularFarmer
         }
     }
 }
-
