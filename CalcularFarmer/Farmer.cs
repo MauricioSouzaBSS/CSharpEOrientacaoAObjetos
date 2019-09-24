@@ -12,19 +12,19 @@ namespace CalcularFarmer
         public const int FeedMultiplier = 30;
 
         private int numberOfCows;
-        public int BagsOfFeed { get; private set; }                 
-        //public int NumberOfCows
-        //{
-        //    get
-        //    {
-        //        return numberOfCows;
-        //    }
-        //    set
-        //    {
-        //        numberOfCows = value;
-        //        BagsOfFeed = numberOfCows * FeedMultiplier;
-        //    }
-        //}
+       //ublic int BagsOfFeed { get; private set; }
+        public int NumberOfCows
+        {
+            get
+            {
+                return numberOfCows;
+            }
+            set
+            {
+                numberOfCows = value;
+                BagsOfFeed = numberOfCows * FeedMultiplier;
+            }
+        }
     }
 }
 

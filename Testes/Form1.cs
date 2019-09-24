@@ -103,5 +103,9 @@ namespace Testes
          
         }
 
+        private void ButtonLimparCaixas_Click(object sender, EventArgs e)
+        {
+            LimparTextBox();
+        }
     }
 }

@@ -17,7 +17,7 @@ namespace ExercicioPag147
         public Form1()
         {
             InitializeComponent();
-            lucinda = new.;)
+            lucinda = new)
             { Name = "Lucinda ", EarSize = 33 };
             Lloyd = new Elephant()
             { Name = "lloyd", EarSize = 40 };

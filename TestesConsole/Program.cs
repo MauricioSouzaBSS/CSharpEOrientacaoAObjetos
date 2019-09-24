@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace TestesConsole
 {
-     public class myfirstapp
+    public class myfirstapp
+    {
+        public static void Main(string[] args)
         {
-            public static void Main (string [] args)
-        }
 
         }
     }
