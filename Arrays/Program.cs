@@ -13,7 +13,7 @@ namespace Arrays
             string[] a = new string[3];
             a[0] = "Mauricio";
             a[1] = "Sheila";
-            a[2] = "Lana";
+            a[2] = "Camila";
 
             Array.Sort(a);
 
