@@ -88,7 +88,7 @@ namespace Testes
             }
             catch(Exception ex)
             {
-                MessageBox.Show("Erro! Campo em Branco ou Letras nos Campos! ");
+                MessageBox.Show("Erro!! Campo em Branco ou Letras nos Campos! ");
                 LimparTextBox();
             }
         }
