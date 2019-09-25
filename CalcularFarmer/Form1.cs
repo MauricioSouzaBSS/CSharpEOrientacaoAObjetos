@@ -20,8 +20,9 @@ namespace CalcularFarmer
 
         private void Calculate_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("I Need {0} bags of feed for {1} cows",
+            string numeroDeVacas = String.Format("I Need {0} bags of feed for {1} cows",
                 farmer.BagsOfFeed, farmer.NumberOfCows);
+            Console.WriteLine(numeroDeVacas);
         }
 
         private void Form1_Load(object sender, EventArgs e)
