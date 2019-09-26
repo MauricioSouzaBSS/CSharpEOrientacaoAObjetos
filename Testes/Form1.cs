@@ -86,11 +86,12 @@ namespace Testes
                 textBox3.Text = kmsAFazer.ToString("F");
                 textBox5.Text = litros.ToString("F");
             }
-            catch(Exception ex)
+            catch (Exception)
             {
                 MessageBox.Show("Erro!! Campo em Branco ou Letras nos Campos! ");
                 LimparTextBox();
             }
+            
         }
 
         private void LimparTextBox()

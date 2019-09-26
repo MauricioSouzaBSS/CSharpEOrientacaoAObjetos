@@ -95,7 +95,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Varios", "Varios", "{3DE4F8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioPag211", "ExercicioPag211\ExercicioPag211.csproj", "{E8C9149C-E8CF-4D77-8CD0-1FB8BB6F2BE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestandoEncapsulamento", "TestandoEncapsulamento\TestandoEncapsulamento.csproj", "{40D3D4E9-E8CC-4F9B-ADDE-652FD9F79AE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "TestandoEncapsulamento\Calculator.csproj", "{40D3D4E9-E8CC-4F9B-ADDE-652FD9F79AE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
