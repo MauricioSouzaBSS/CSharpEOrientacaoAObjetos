@@ -32,6 +32,8 @@ namespace TesteDeEncapsulamentos
         //}
  
         // ==================================================================================================================================== //
+
+
         public void setNumUm(double numUm)  
         {                                   // ACESSADOR SET: CHAMADO SEMPRE QUE A PROPRIEDADE getNumUm É DEFINIDA
             this.numUm = numUm;             // 
