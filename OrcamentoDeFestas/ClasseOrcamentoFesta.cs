@@ -13,6 +13,12 @@ namespace OrcamentoDeFestas
         public decimal CustoDeBebidasPorPessoa;
         public decimal CustoDeDecoracao = 0;
 
+        //private bool decoracaoDaFancy;
+        //public decimal TamanhoDoBolo;
+        //public decimal EscritaDoBolo;
+
+
+
         public void DefinirOpcaoSaudavel(bool semAlcool)
         {
             if (semAlcool)

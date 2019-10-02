@@ -10,55 +10,60 @@ namespace PlanejadorDeFesta
     class BirthdayParty
     {
 
-        public  const int CostOfFoodPerPerson = 25;
+        public  const int CustoDeComidaPorPessoa = 25;
 
-        public decimal CostOfDecorations = 0;
-        private bool fancyDecorations;
-        public decimal CakeSize;
-        public string CakeWriting;
+        public decimal CustoDeDecoracao = 0;
+        private bool decoracaoFancy;
+        public int TamanhoDoBolo;
+    
 
 
-        private void CalculateCakeSize()
+        private void CalcularTamanhoDoBolo()
         {
 
         }
         
-        public BirthdayParty(int numberOfPeople, bool fancyDecorations, string cakeWriting)
+        public BirthdayParty(int numeroDePessoas, bool decoracaoFancy, string EscritaDoBolo)
         {
 
-            this.numberOfPeople = numberOfPeople;
-            this.fancyDecorations = fancyDecorations;
-            CalculateCakeSize();
-            this.CakeWriting = cakeWriting;
-            CalculateCostOfDecorations(fancyDecorations);
+            this.numeroDePessoas = numeroDePessoas;
+            this.decoracaoFancy = decoracaoFancy;
+            CalcularTamanhoDoBolo();
+
+            this.EscritaDoBolo = EscritaDoBolo;
+            CalcularCustoDeDecoracao(decoracaoFancy);
         }
-        public decimal CalculateCost()
+        public decimal CalcularCusto()
         {
-            decimal TotalCost = CostOfDecorations + (CostOfFoodPerPerson * NumberOfPeople);
-            decimal CakeCost;
-            if (CakeSize == 8)
-                CakeCost = 40M + CakeWriting.Length * .25M;
+            decimal CustoTotal = CustoDeDecoracao + (CustoDeComidaPorPessoa * numeroDePessoas);
+            decimal CustoDoBolo;
+            if (TamanhoDoBolo == 8)
+                CustoDoBolo = 40M + EscritaDoBolo.Length * .25M;
             else
-                CakeCost = 75M + CakeWriting.Length * .25M;
-            return TotalCost + CakeCost;
+                CustoDoBolo = 75M + EscritaDoBolo.Length * .25M;
+            return CustoTotal + CustoDoBolo;
         }
-        private int numberOfPeople;
-        public int NumberOfPeople
+        private int numeroDePessoas;
+        public int numeroDePessoas
         {
-            get { return numberOfPeople; }
-            set {
-                numberOfPeople = value;
-                CalculateCostOfDecorations(fancyDecorations);
-                CalculateCakeSize();
-                this.CakeWriting = cakeWriting;
+            get
+            {
+                return numeroDePessoas;
+            }
+            set
+            {
+                numeroDePessoas = value;
+                CalcularCustoDeDecoracao(decoracaoFancy);
+                CalcularTamanhoDoBolo();
+                this.EscritaDoBolo = EscritaDoBolo;
             }
         }
-        public void CalculateCostOfDecorations(bool fancy) {
-            fancyDecorations = fancy;
+        public void CalcularCustoDeDecoracao(bool fancy) {
+            decoracaoFancy = fancy;
             if (fancy)
-                CostOfDecorations = (NumberOfPeople * 15.00M) + 50M;
+                CustoDeDecoracao = (numeroDePessoas * 15.00M) + 50M;
             else
-                CostOfDecorations = (NumberOfPeople * 7.50M) + 30M;
+                CustoDeDecoracao = (numeroDePessoas * 7.50M) + 30M;
         }
 
        

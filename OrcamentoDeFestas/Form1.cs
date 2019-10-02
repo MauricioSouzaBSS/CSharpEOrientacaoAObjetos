@@ -15,6 +15,7 @@ namespace OrcamentoDeFestas
         ClasseOrcamentoFesta classeOrcamentoFesta;
         public Form1()
         {
+
             InitializeComponent();
             classeOrcamentoFesta = new ClasseOrcamentoFesta() { QuantidadeDePessoas = 5 };
             classeOrcamentoFesta.CalcularCustoDeDecoracao(comDecoracao.Checked);

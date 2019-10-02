@@ -115,6 +115,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClasseOrcamentoFesta.cs" />
+    <Compile Include="FestaDeAniversario.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
