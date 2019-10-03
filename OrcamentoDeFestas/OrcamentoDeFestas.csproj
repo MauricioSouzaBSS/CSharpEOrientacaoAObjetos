@@ -114,8 +114,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BirthdayParty.cs" />
     <Compile Include="ClasseOrcamentoFesta.cs" />
-    <Compile Include="FestaDeAniversario.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

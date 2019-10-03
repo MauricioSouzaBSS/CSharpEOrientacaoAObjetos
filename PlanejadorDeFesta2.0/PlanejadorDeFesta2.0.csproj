@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2C12BE1B-3383-460D-B1B2-EFA658B6DAC6}</ProjectGuid>
+    <ProjectGuid>{EBC21797-E759-4D07-B08B-CCC9D29AC706}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>PlanejadorDeFesta</RootNamespace>
-    <AssemblyName>PlanejadorDeFesta</AssemblyName>
+    <RootNamespace>PlanejadorDeFesta2._0</RootNamespace>
+    <AssemblyName>PlanejadorDeFesta2.0</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PlanejadorDeFesta.Properties
+namespace PlanejadorDeFesta2._0.Properties
 {
 
 
