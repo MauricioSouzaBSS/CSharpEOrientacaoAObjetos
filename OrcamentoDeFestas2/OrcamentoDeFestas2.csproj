@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EBC21797-E759-4D07-B08B-CCC9D29AC706}</ProjectGuid>
+    <ProjectGuid>{F5F48C60-6ACD-471C-83D5-7EED2F6C6141}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>PlanejadorDeFesta2._0</RootNamespace>
-    <AssemblyName>PlanejadorDeFesta2.0</AssemblyName>
+    <RootNamespace>OrcamentoDeFestas2</RootNamespace>
+    <AssemblyName>OrcamentoDeFestas2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BirthdayParty.cs" />
+    <Compile Include="DinnerParty.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PlanejadorDeFesta2._0
+namespace OrcamentoDeFestas2
 {
     static class Program
     {

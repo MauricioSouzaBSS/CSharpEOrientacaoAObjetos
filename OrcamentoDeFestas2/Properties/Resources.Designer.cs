@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PlanejadorDeFesta2._0.Properties
+namespace OrcamentoDeFestas2.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace PlanejadorDeFesta2._0.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PlanejadorDeFesta2._0.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("OrcamentoDeFestas2.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

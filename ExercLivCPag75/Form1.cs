@@ -45,7 +45,7 @@ namespace ExercLivCPag75
                 }
             }
         }
-
+                               
         private void CheckBox1_CheckedChanged(object sender, EventArgs e)
         {
 
