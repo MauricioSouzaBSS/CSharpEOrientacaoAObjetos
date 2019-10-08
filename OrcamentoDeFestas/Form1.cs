@@ -20,7 +20,7 @@ namespace OrcamentoDeFestas
             decimal Cost = dinnerParty.CalculateCost(checkBox2.Checked);
             costLabel.Text = Cost.ToString("c");
         }
-
+        //comentario teste que eu vou ler amanha de manha feito aqui de casa
         private void Form1_Load(object sender, EventArgs e)
         {
 
