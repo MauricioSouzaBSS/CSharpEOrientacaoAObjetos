@@ -13,25 +13,45 @@ namespace OrcamentoDeFestas2
     public partial class Form1 : Form
     {
         DinnerParty dinnerParty;
+
         BirthdayParty birthdayParty;
+
         public Form1()
         {
+
             InitializeComponent();
-            dinnerParty = new DinnerParty((int)numericUpDown1.Value, checkBox2.Checked, checkBox1.Checked);
+
+            dinnerParty = new DinnerParty ((int)numericUpDown1.Value, checkBox2.Checked, checkBox1.Checked);
             DisplayDinnerPartyCost();
+
+
 
             birthdayParty = new BirthdayParty((int)numberBirthday.Value, fancyBirthday.Checked, cakeWriting.Text);
             DisplayBirthdayPartyCost();
         }
+      
 
+        private void DisplayBirthdayPartyCost()
+        {
+            cakeWriting.Text = birthdayParty.CakeWriting;
+            decimal cost = birthdayParty.CalculateCost();
+            birthdayCost.Text = cost.ToString("c");
+        }
+        private void DisplayDinnerPartyCost()
+        {
+            decimal Cost = dinnerParty.CalculateCost(checkBox2.Checked);
+            costLabel.Text = Cost.ToString("c");
+        }
         private void numberBirthday_ValueChanged(object sender,EventArgs e)
         {
             birthdayParty.NumberOfPeople = (int)numberBirthday.Value;
-            DisplayBirthday();
+            DisplayBirthdayPartyCost();
         }
+
         private void fancyBirthday_CheckedChanged(object sender, EventArgs e)
         {
-            birthdayParty.CalculateCostOfDecorations(fancyBirthday.Checked)
+            birthdayParty.CalculateCostOfDecorations(fancyBirthday.Checked);
+            DisplayBirthdayPartyCost();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -61,5 +81,12 @@ namespace OrcamentoDeFestas2
         {
 
         }
+
+        private void CakeWriting_TextChanged(object sender, EventArgs e)
+        {
+            birthdayParty.CakeWriting = cakeWriting.Text;
+            DisplayBirthdayPartyCost();
+        }
+
     }
 }

@@ -9,34 +9,38 @@ namespace OrcamentoDeFestas2
 {
     class BirthdayParty
     {
+        
         public const int CostOfFoodPerPerson = 25;
         public decimal CostOfDecorations = 0;
-        private bool fancyDecorations;   
         public int CakeSize;
-        
+
+        private bool fancyDecorations;
+        private string cakeWriting = "";
+        private int numberOfPeople;
+
         public BirthdayParty(int numberOfPeople, bool fancyDecorations, string cakeWriting)
         {
-            this.NumberOfPeople = numberOfPeople;
-            this.fancyDecorations = fancyDecorations;
+            this.numberOfPeople = numberOfPeople;
+            this.fancyDecorations = fancyDecorations;  // 
             CalculateCakeSize();
-            this.CakeWriting = cakeWriting;
+            this.cakeWriting = cakeWriting;
             CalculateCostOfDecorations(fancyDecorations);
         }
-        private void CalculateCakeSize()
+        private void CalculateCakeSize()  // calcular tamanho das letras do bolo
         {
             if (NumberOfPeople <= 4)
                 CakeSize = 8;
             else
                 CakeSize = 16;
         }
-        private string cakeWriting = "";
+       
         public string CakeWriting
         {
             get
             {
                 return this.cakeWriting;
             }
-            set
+            set       // estudar esse metodo do set com muitas coisas que eu nao tinha visto antes
             {
                 int maxLength;
                 if (CakeSize == 8)
@@ -45,7 +49,7 @@ namespace OrcamentoDeFestas2
                     maxLength = 40;
                 if (value.Length > maxLength)
                 {
-                    MessageBox.Show("Too many Letters for a " + CakeSize + "inch cake");
+                    MessageBox.Show("Muitas Letras para um Bolo de " + CakeSize);
                     if (maxLength > this.cakeWriting.Length)
                         maxLength = this.cakeWriting.Length;
                     this.cakeWriting = cakeWriting.Substring(0, maxLength);
@@ -54,20 +58,24 @@ namespace OrcamentoDeFestas2
                     this.cakeWriting = value;
             }
         }
-        public decimal CalculateCost ()
+        public decimal CalculateCost ()   // calcular o custo das decorações + de comida e numero de pessoas
         {
-            decimal TotalCost = CostOfDecorations + (CostOfFoodPerPerson * NumberOfPeople);
+            decimal TotalCost = CostOfDecorations + (CostOfFoodPerPerson * numberOfPeople);
             decimal CakeCost;
             if (CakeSize == 8)
-                CakeCost = 40M + CakeWriting.Length * .25M;
+                CakeCost = 40M + cakeWriting.Length * .25M;
             else
-                CakeCost = 75M + CakeWriting.Length * .25M;
+                CakeCost = 75M + cakeWriting.Length * .25M;
             return TotalCost + CakeCost;
         }
-        private int numberOfPeople;
+
+        
         public int NumberOfPeople
         {
-            get { return numberOfPeople; }
+            get
+            {
+                return numberOfPeople;
+            }
             set
             {
                 numberOfPeople = value;
@@ -76,16 +84,16 @@ namespace OrcamentoDeFestas2
                 this.CakeWriting = cakeWriting;
             }
         }
-      
+
         public void CalculateCostOfDecorations(bool fancy)
         {
             if (fancy)
             {
-                CostOfDecorations = (NumberOfPeople * 15.00M) + 50M;
+                CostOfDecorations = (numberOfPeople * 15.00M) + 50M;
             }
             else
             {
-                CostOfDecorations = (NumberOfPeople * 7.50M) + 30M;
+                CostOfDecorations = (numberOfPeople * 7.50M) + 30M;
             }
         }
     }
