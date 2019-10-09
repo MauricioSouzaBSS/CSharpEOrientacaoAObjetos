@@ -1,11 +1,25 @@
-﻿namespace OrcamentoDeFestas2
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace OrcamentoDeFestas2
 {
     class DinnerParty
     {
-        public int NumberOfPeople;
         public decimal CostOfBeveragesPerPerson;
         public decimal CostOfDecorations = 0;
-         const int CostOfFoodPerPerson = 25;
+        const int CostOfFoodPerPerson = 25;
+        private int numberOfPeople;
+
+        public int NumberOfPeople
+        {
+            get
+            {
+                return numberOfPeople;
+            }
+        }
 
         public void SetHealthyOption(bool healthyOption)
         {
@@ -18,7 +32,7 @@
                 CostOfBeveragesPerPerson = 10.00M;
             }
         }
-        public void CalculateCostOfDecorations (bool fancy)
+        public void CalculateCostOfDecorations(bool fancy)
         {
             if (fancy)
             {
@@ -29,9 +43,9 @@
                 CostOfDecorations = (NumberOfPeople * 7.50M) + 30M;
             }
         }
-        public decimal CalculateCost (bool healthyOption)
+        public decimal CalculateCost(bool healthyOption)
         {
-            decimal totalCost = CostOfDecorations + ((CostOfBeveragesPerPerson + CostOfFoodPerPerson) * NumberOfPeople);
+            decimal totalCost = CostOfDecorations + ((CostOfBeveragesPerPerson + CostOfFoodPerPerson) * numberOfPeople);
             if (healthyOption)
             {
                 return totalCost * .95M;
