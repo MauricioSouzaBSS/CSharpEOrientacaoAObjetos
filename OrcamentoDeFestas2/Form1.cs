@@ -31,7 +31,7 @@ namespace OrcamentoDeFestas2
         }
         private void fancyBirthday_CheckedChanged(object sender, EventArgs e)
         {
-            birthdayParty.CalculateCostOfDecorations(fancyBirthday.Checked)
+            birthdayParty.CalculateCostOfDecorations(fancyBirthday.Checked);
         }
 
         private void Form1_Load(object sender, EventArgs e)
