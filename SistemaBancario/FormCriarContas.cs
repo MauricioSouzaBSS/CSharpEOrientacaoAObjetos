@@ -57,9 +57,6 @@ namespace SistemaBancario
         }
         private void CriarESalvar_Click(object sender, EventArgs e)
         {
-
-           
-
             string nomeCliente = caixadeNome.Text;
             string rgCliente = caixadeRg.Text;
             string cpfCliente = caixadeCpf.Text;
