@@ -23,7 +23,6 @@ namespace SistemaBancario
         {
             FormCriarContas formCriarContas = new FormCriarContas();
             formCriarContas.ShowDialog();
-
         }
         private void VerContas_Click(object sender, EventArgs e)
         {

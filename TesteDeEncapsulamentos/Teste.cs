@@ -29,12 +29,6 @@ namespace TesteDeEncapsulamentos
             else
                 throw new Exception("A variável numeroUm somente pode ter o valor 1.00");
         }
-
-
-
-
-
-
         // ==================================================================================================================================== //
 
         //public double getNumUm()                                      // ACESSADOR GET: METODO EXECUTADO SEMPRE QUE A PROPRIEDADE  getNumUm É LIDA
@@ -91,11 +85,5 @@ namespace TesteDeEncapsulamentos
         {
             Console.WriteLine("O total é de: " + this.total);
         }
-
-            
-            
-            
-
-
     }
 }

@@ -66,7 +66,7 @@ namespace SistemaBancario
 
             caixadeNome.Clear();
             caixadeRg.Clear();
-            caixadeCpf.Clear();
+            caixadeCpf.Clear();         // Limpar Campos
             caixadeNumero.Clear();
             caixadeEndereco.Clear();
             caixadeSaldo.Clear();
@@ -81,7 +81,7 @@ namespace SistemaBancario
 
             BancoDeDados.SalvarCliente(cliente);   //SALVAR
 
-            cliente.AdicionarConta(0.10);  
+            cliente.AdicionarConta(0.10);    // preço base para salvar caso seja zero o valor da conta
 
             string saldoCliente = caixadeSaldo.Text;
             MessageBox.Show("Cliente: " + nomeCliente +"\n\n"+ 
