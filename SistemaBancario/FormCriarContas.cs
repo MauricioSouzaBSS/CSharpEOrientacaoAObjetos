@@ -85,7 +85,7 @@ namespace SistemaBancario
 
             string saldoCliente = caixadeSaldo.Text;
             MessageBox.Show("Cliente: " + nomeCliente +"\n\n"+ 
-                "Salvado !! " + "\n\n" +
+                "Salvadooo !! " + "\n\n" +
                 "Com Saldo de: " + saldo  );
         }
     }
