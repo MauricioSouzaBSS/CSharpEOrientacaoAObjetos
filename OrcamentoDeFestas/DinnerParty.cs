@@ -3,9 +3,10 @@
     class DinnerParty
     {
         public int NumberOfPeople;
+        private const int CostOfFoodPerPerson = 25;
         public decimal CostOfBeveragesPerPerson;
         public decimal CostOfDecorations = 0;
-         const int CostOfFoodPerPerson = 25;
+        
 
         public void SetHealthyOption(bool healthyOption)
         {
@@ -15,7 +16,7 @@
             }
             else
             {
-                CostOfBeveragesPerPerson = 10.00M;
+                CostOfBeveragesPerPerson = 10.00M; 
             }
         }
         public void CalculateCostOfDecorations (bool fancy)

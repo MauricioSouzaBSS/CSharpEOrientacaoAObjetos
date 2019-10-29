@@ -14,13 +14,11 @@ namespace OrcamentoDeFestas
             dinnerParty.SetHealthyOption(checkBox1.Checked);
             DisplayDinnerPartyCost();
         }
-
         private void DisplayDinnerPartyCost()
         {
             decimal Cost = dinnerParty.CalculateCost(checkBox2.Checked);
             costLabel.Text = Cost.ToString("c");
         }
-      
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -31,13 +29,11 @@ namespace OrcamentoDeFestas
             dinnerParty.NumberOfPeople = (int)numericUpDown1.Value;
             DisplayDinnerPartyCost();
         }
-
         private void CheckBox1_CheckedChanged(object sender, EventArgs e)
         {
             dinnerParty.CalculateCostOfDecorations(checkBox1.Checked);
             DisplayDinnerPartyCost();
         }
-
         private void CheckBox2_CheckedChanged(object sender, EventArgs e)
         {
             dinnerParty.SetHealthyOption(checkBox2.Checked);
