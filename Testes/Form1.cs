@@ -7,63 +7,63 @@ namespace Testes
     {
         public Form1()
         {
-            InitializeComponent();   
+            InitializeComponent();
         }
 
         public void Form1_Load(object sender, EventArgs e)
         {
-           
+
         }
 
         private void LabelLitrosAbastecidos_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void LabelValorAbastecido_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void Label2KilometrosaFazer_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void Label1PrecoDoLitro_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void Label1InsiraAMedia_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         public void TextBox5_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         public void TextBox8_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         public void TextBox3_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         public void TextBox2_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         public void TextBox1_TextChanged(object sender, EventArgs e)
         {
-            
-            
+
+
         }
 
         double media;
@@ -101,7 +101,7 @@ namespace Testes
             textBox3.Clear();
             textBox5.Clear();
             textBox8.Clear();
-         
+
         }
 
         private void ButtonLimparCaixas_Click(object sender, EventArgs e)
